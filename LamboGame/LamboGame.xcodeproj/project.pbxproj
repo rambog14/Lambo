@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3B6B1D1EAD62B3007D5EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3B6B1C1EAD62B3007D5EC5 /* AppDelegate.swift */; };
+		1D3B6B1F1EAD62B3007D5EC5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1D3B6B1E1EAD62B3007D5EC5 /* GameScene.sks */; };
+		1D3B6B211EAD62B3007D5EC5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1D3B6B201EAD62B3007D5EC5 /* Actions.sks */; };
+		1D3B6B231EAD62B3007D5EC5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3B6B221EAD62B3007D5EC5 /* GameScene.swift */; };
+		1D3B6B251EAD62B3007D5EC5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3B6B241EAD62B3007D5EC5 /* GameViewController.swift */; };
+		1D3B6B281EAD62B3007D5EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3B6B261EAD62B3007D5EC5 /* Main.storyboard */; };
+		1D3B6B2A1EAD62B3007D5EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3B6B291EAD62B3007D5EC5 /* Assets.xcassets */; };
+		1D3B6B2D1EAD62B3007D5EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3B6B2B1EAD62B3007D5EC5 /* LaunchScreen.storyboard */; };
+		1D3B6B381EAD62B3007D5EC5 /* LamboGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3B6B371EAD62B3007D5EC5 /* LamboGameTests.swift */; };
+		1D3B6B431EAD62B3007D5EC5 /* LamboGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3B6B421EAD62B3007D5EC5 /* LamboGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D3B6B341EAD62B3007D5EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D3B6B111EAD62B3007D5EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D3B6B181EAD62B3007D5EC5;
+			remoteInfo = LamboGame;
+		};
+		1D3B6B3F1EAD62B3007D5EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D3B6B111EAD62B3007D5EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D3B6B181EAD62B3007D5EC5;
+			remoteInfo = LamboGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3B6B191EAD62B3007D5EC5 /* LamboGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LamboGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3B6B1C1EAD62B3007D5EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D3B6B1E1EAD62B3007D5EC5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1D3B6B201EAD62B3007D5EC5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1D3B6B221EAD62B3007D5EC5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1D3B6B241EAD62B3007D5EC5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1D3B6B271EAD62B3007D5EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D3B6B291EAD62B3007D5EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D3B6B2C1EAD62B3007D5EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D3B6B2E1EAD62B3007D5EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3B6B331EAD62B3007D5EC5 /* LamboGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamboGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3B6B371EAD62B3007D5EC5 /* LamboGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamboGameTests.swift; sourceTree = "<group>"; };
+		1D3B6B391EAD62B3007D5EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3B6B3E1EAD62B3007D5EC5 /* LamboGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LamboGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3B6B421EAD62B3007D5EC5 /* LamboGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamboGameUITests.swift; sourceTree = "<group>"; };
+		1D3B6B441EAD62B3007D5EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D3B6B161EAD62B3007D5EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3B6B301EAD62B3007D5EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3B6B3B1EAD62B3007D5EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D3B6B101EAD62B3007D5EC5 = {
+			isa = PBXGroup;
+			children = (
+				1D3B6B1B1EAD62B3007D5EC5 /* LamboGame */,
+				1D3B6B361EAD62B3007D5EC5 /* LamboGameTests */,
+				1D3B6B411EAD62B3007D5EC5 /* LamboGameUITests */,
+				1D3B6B1A1EAD62B3007D5EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D3B6B1A1EAD62B3007D5EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D3B6B191EAD62B3007D5EC5 /* LamboGame.app */,
+				1D3B6B331EAD62B3007D5EC5 /* LamboGameTests.xctest */,
+				1D3B6B3E1EAD62B3007D5EC5 /* LamboGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D3B6B1B1EAD62B3007D5EC5 /* LamboGame */ = {
+			isa = PBXGroup;
+			children = (
+				1D3B6B1C1EAD62B3007D5EC5 /* AppDelegate.swift */,
+				1D3B6B1E1EAD62B3007D5EC5 /* GameScene.sks */,
+				1D3B6B201EAD62B3007D5EC5 /* Actions.sks */,
+				1D3B6B221EAD62B3007D5EC5 /* GameScene.swift */,
+				1D3B6B241EAD62B3007D5EC5 /* GameViewController.swift */,
+				1D3B6B261EAD62B3007D5EC5 /* Main.storyboard */,
+				1D3B6B291EAD62B3007D5EC5 /* Assets.xcassets */,
+				1D3B6B2B1EAD62B3007D5EC5 /* LaunchScreen.storyboard */,
+				1D3B6B2E1EAD62B3007D5EC5 /* Info.plist */,
+			);
+			path = LamboGame;
+			sourceTree = "<group>";
+		};
+		1D3B6B361EAD62B3007D5EC5 /* LamboGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D3B6B371EAD62B3007D5EC5 /* LamboGameTests.swift */,
+				1D3B6B391EAD62B3007D5EC5 /* Info.plist */,
+			);
+			path = LamboGameTests;
+			sourceTree = "<group>";
+		};
+		1D3B6B411EAD62B3007D5EC5 /* LamboGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D3B6B421EAD62B3007D5EC5 /* LamboGameUITests.swift */,
+				1D3B6B441EAD62B3007D5EC5 /* Info.plist */,
+			);
+			path = LamboGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D3B6B181EAD62B3007D5EC5 /* LamboGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3B6B471EAD62B3007D5EC5 /* Build configuration list for PBXNativeTarget "LamboGame" */;
+			buildPhases = (
+				1D3B6B151EAD62B3007D5EC5 /* Sources */,
+				1D3B6B161EAD62B3007D5EC5 /* Frameworks */,
+				1D3B6B171EAD62B3007D5EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LamboGame;
+			productName = LamboGame;
+			productReference = 1D3B6B191EAD62B3007D5EC5 /* LamboGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D3B6B321EAD62B3007D5EC5 /* LamboGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3B6B4A1EAD62B3007D5EC5 /* Build configuration list for PBXNativeTarget "LamboGameTests" */;
+			buildPhases = (
+				1D3B6B2F1EAD62B3007D5EC5 /* Sources */,
+				1D3B6B301EAD62B3007D5EC5 /* Frameworks */,
+				1D3B6B311EAD62B3007D5EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D3B6B351EAD62B3007D5EC5 /* PBXTargetDependency */,
+			);
+			name = LamboGameTests;
+			productName = LamboGameTests;
+			productReference = 1D3B6B331EAD62B3007D5EC5 /* LamboGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D3B6B3D1EAD62B3007D5EC5 /* LamboGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3B6B4D1EAD62B3007D5EC5 /* Build configuration list for PBXNativeTarget "LamboGameUITests" */;
+			buildPhases = (
+				1D3B6B3A1EAD62B3007D5EC5 /* Sources */,
+				1D3B6B3B1EAD62B3007D5EC5 /* Frameworks */,
+				1D3B6B3C1EAD62B3007D5EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D3B6B401EAD62B3007D5EC5 /* PBXTargetDependency */,
+			);
+			name = LamboGameUITests;
+			productName = LamboGameUITests;
+			productReference = 1D3B6B3E1EAD62B3007D5EC5 /* LamboGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D3B6B111EAD62B3007D5EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RenatoGamboa;
+				TargetAttributes = {
+					1D3B6B181EAD62B3007D5EC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A683WPU9TF;
+						ProvisioningStyle = Automatic;
+					};
+					1D3B6B321EAD62B3007D5EC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A683WPU9TF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D3B6B181EAD62B3007D5EC5;
+					};
+					1D3B6B3D1EAD62B3007D5EC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A683WPU9TF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D3B6B181EAD62B3007D5EC5;
+					};
+				};
+			};
+			buildConfigurationList = 1D3B6B141EAD62B3007D5EC5 /* Build configuration list for PBXProject "LamboGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D3B6B101EAD62B3007D5EC5;
+			productRefGroup = 1D3B6B1A1EAD62B3007D5EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D3B6B181EAD62B3007D5EC5 /* LamboGame */,
+				1D3B6B321EAD62B3007D5EC5 /* LamboGameTests */,
+				1D3B6B3D1EAD62B3007D5EC5 /* LamboGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D3B6B171EAD62B3007D5EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3B6B281EAD62B3007D5EC5 /* Main.storyboard in Resources */,
+				1D3B6B1F1EAD62B3007D5EC5 /* GameScene.sks in Resources */,
+				1D3B6B2A1EAD62B3007D5EC5 /* Assets.xcassets in Resources */,
+				1D3B6B2D1EAD62B3007D5EC5 /* LaunchScreen.storyboard in Resources */,
+				1D3B6B211EAD62B3007D5EC5 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3B6B311EAD62B3007D5EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3B6B3C1EAD62B3007D5EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D3B6B151EAD62B3007D5EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3B6B231EAD62B3007D5EC5 /* GameScene.swift in Sources */,
+				1D3B6B251EAD62B3007D5EC5 /* GameViewController.swift in Sources */,
+				1D3B6B1D1EAD62B3007D5EC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3B6B2F1EAD62B3007D5EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3B6B381EAD62B3007D5EC5 /* LamboGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3B6B3A1EAD62B3007D5EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3B6B431EAD62B3007D5EC5 /* LamboGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D3B6B351EAD62B3007D5EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D3B6B181EAD62B3007D5EC5 /* LamboGame */;
+			targetProxy = 1D3B6B341EAD62B3007D5EC5 /* PBXContainerItemProxy */;
+		};
+		1D3B6B401EAD62B3007D5EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D3B6B181EAD62B3007D5EC5 /* LamboGame */;
+			targetProxy = 1D3B6B3F1EAD62B3007D5EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D3B6B261EAD62B3007D5EC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3B6B271EAD62B3007D5EC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D3B6B2B1EAD62B3007D5EC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D3B6B2C1EAD62B3007D5EC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D3B6B451EAD62B3007D5EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D3B6B461EAD62B3007D5EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D3B6B481EAD62B3007D5EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A683WPU9TF;
+				INFOPLIST_FILE = LamboGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenatoGamboa.LamboGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1D3B6B491EAD62B3007D5EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A683WPU9TF;
+				INFOPLIST_FILE = LamboGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenatoGamboa.LamboGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1D3B6B4B1EAD62B3007D5EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A683WPU9TF;
+				INFOPLIST_FILE = LamboGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenatoGamboa.LamboGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LamboGame.app/LamboGame";
+			};
+			name = Debug;
+		};
+		1D3B6B4C1EAD62B3007D5EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A683WPU9TF;
+				INFOPLIST_FILE = LamboGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenatoGamboa.LamboGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LamboGame.app/LamboGame";
+			};
+			name = Release;
+		};
+		1D3B6B4E1EAD62B3007D5EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A683WPU9TF;
+				INFOPLIST_FILE = LamboGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenatoGamboa.LamboGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LamboGame;
+			};
+			name = Debug;
+		};
+		1D3B6B4F1EAD62B3007D5EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A683WPU9TF;
+				INFOPLIST_FILE = LamboGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenatoGamboa.LamboGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LamboGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D3B6B141EAD62B3007D5EC5 /* Build configuration list for PBXProject "LamboGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3B6B451EAD62B3007D5EC5 /* Debug */,
+				1D3B6B461EAD62B3007D5EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D3B6B471EAD62B3007D5EC5 /* Build configuration list for PBXNativeTarget "LamboGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3B6B481EAD62B3007D5EC5 /* Debug */,
+				1D3B6B491EAD62B3007D5EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D3B6B4A1EAD62B3007D5EC5 /* Build configuration list for PBXNativeTarget "LamboGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3B6B4B1EAD62B3007D5EC5 /* Debug */,
+				1D3B6B4C1EAD62B3007D5EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D3B6B4D1EAD62B3007D5EC5 /* Build configuration list for PBXNativeTarget "LamboGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3B6B4E1EAD62B3007D5EC5 /* Debug */,
+				1D3B6B4F1EAD62B3007D5EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D3B6B111EAD62B3007D5EC5 /* Project object */;
+}
